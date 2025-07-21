@@ -1,0 +1,94 @@
+.product-container {
+    padding: 23px 180px;
+}
+
+.product-p {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.product-h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.product-span {
+    border-bottom: 2px solid #384aeb;
+    margin-left: 4px;
+}
+
+.second-product-section {
+    width: 100%;
+
+}
+
+.card-list {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); // 4 sütun
+    gap: 20px; // kartlar arası boşluq
+
+}
+
+@media(max-width:1200px) {
+    .product-container {
+        padding: 23px 120px;
+    }
+    .card-list{
+        grid-template-columns: repeat(3, 1fr); // 4 sütun
+    }
+
+}
+
+@media(max-width:981px) {
+    .product-container {
+        padding: 23px 90px;
+    }
+  
+  
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+         & img{
+            width: 280px;
+         }
+ 
+    }
+}
+@media(max-width:768px){
+    .product-container {
+        padding: 23px 70px;
+    }
+    .card-list {
+        grid-template-columns: repeat(1, 1fr);
+         & img{
+            width: 400px;
+         }
+       
+ 
+    }
+    .first-product-section div {
+
+        display: flex;
+        flex-direction: column;
+    
+            
+    }
+    
+}
+
+@media(max-width:567px){
+    .product-container {
+        padding: 23px 35px;
+    }
+    .card-list{
+         & img{
+            width: 330px;
+         }
+    }
+
+}

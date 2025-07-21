@@ -1,0 +1,180 @@
+.contact-container{
+    padding: 25px 180px;
+    width: 100%;
+
+}
+.mistake-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #e8ecef;
+    height: 50vh;
+}
+.mistake-container-p{
+    margin: 5px;
+    margin-bottom: 20px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    line-height: 1.667;
+    font-size: 24px;
+}
+.mistake-container-map{
+    margin: 5px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.667;
+}
+.second-contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.above-div-contact{
+    display: flex;
+    flex-direction: row;
+}
+.place-contact{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.home-contact-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.place-contact-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.row-div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.inputs-aboutYou{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+
+    & input{
+        border-radius: 0;
+        height: 50px;
+        padding-left: 18px;
+        border-color: transparent;
+        background: rgba(130, 139, 178, 0.1);
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+
+.contact-textArea{
+    width: 50%;
+    height: 150px   ;
+    padding-left: 18px;
+    border-color: transparent;
+    background: rgba(130, 139, 178, 0.1);
+    padding-top: 10px;
+}
+
+.down-div-contact{
+    display: flex;
+    justify-content: flex-end;
+}
+.send-message-button{
+    border: 1px solid #384aeb;
+    border-radius: 0;
+    padding: 14px 30px;
+    background-color: #384aeb;
+    color: white;
+    font-weight: 500;
+    font-family: Roboto, Arial, sans-serif;
+    cursor: pointer;
+}
+.send-message-button:hover{
+    background-color: transparent;
+
+    color: black;
+}
+@media(max-width:1200px){
+    .contact-container{
+        padding: 25px 110px;
+
+    }
+    .place-contact{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+  
+    
+}
+@media(max-width:981px){
+    .contact-container{
+        padding: 25px 80px;
+
+    }
+    .row-div{
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .inputs-aboutYou{
+        width: 100%;
+        & input{
+            height: 38px;
+        }
+    }
+    .contact-textArea{
+        width: 100%;
+    }
+    .send-message-button{
+        margin-top: 15px;
+    }
+}
+@media(max-width:767px){
+    .contact-container{
+        padding: 25px 70px;
+
+    }
+    .place-contact{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .above-div-contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .row-div{
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .inputs-aboutYou{
+        width: 100%;
+        & input{
+            height: 38px;
+            width: 100%;
+        }
+    }
+    .down-div-contact{
+        justify-content: center;
+    }
+
+}
+@media(max-width:568px){
+    .contact-container{
+        padding: 25px 35px;
+    }
+    .mistake-container{
+        display: none;
+    }
+}

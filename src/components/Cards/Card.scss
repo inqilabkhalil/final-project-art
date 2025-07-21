@@ -1,0 +1,93 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    justify-content: start;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+
+.card-container img {
+ width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.card-search-bar {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 200px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px); /* Aşağıdan gəlmə effekti üçün */
+    transition: opacity 0.8s ease, transform 0.4s ease;}
+
+.card-blueBackGround {
+    background-color: #384aeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+
+}
+
+.card-container:hover .card-search-bar {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+
+
+    
+
+}
+
+.card-container:hover .card-name-h4{
+    color: #384aeb;
+}
+.card-title-p {
+    color: #777;
+    font-size: 15px;
+
+}
+
+.card-name-h4 {
+    font-family: "Oswald", sans-serif !important;
+    color: #222;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-price-p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.about-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+.card-shop-category{
+    width: 200px;
+}
+@media(max-width:1116px){
+    .card-container.card-margin-right{
+        width: 150px;
+     }
+}

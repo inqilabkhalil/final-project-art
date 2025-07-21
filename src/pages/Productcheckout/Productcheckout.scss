@@ -1,0 +1,470 @@
+.productCheckOut-container {
+
+    padding: 25px 180px;
+}
+
+.returing-header {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    background: #f1f6f7;
+}
+
+.returing-header-h2 {
+    font-size: 15px;
+    line-height: 40px !important;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+    font-weight: 400;
+}
+
+.returing-header-p {
+    margin-top: 15px;
+    padding-left: 30px;
+    margin-bottom: 25px;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+.inputs-container {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+    & input {
+        border: 1px solid #eeeeee;
+        height: 40px;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #999999;
+        font-weight: normal;
+        padding-left: 10px;
+        width: 40%;
+    }
+
+    & input:nth-child(2) {
+        margin-left: 10px;
+    }
+}
+
+.login-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-block: 15px;
+    padding-left: 30px;
+
+    & button {
+        font-size: 15px;
+        padding: 7px 35px;
+        display: inline-block;
+        border: 1px solid #384aeb;
+        border-radius: 30px;
+        color: #222;
+        font-weight: 500;
+        background: #384aeb;
+        color: #fff;
+        transition: all .4s ease;
+        cursor: pointer;
+    }
+
+    & button:hover {
+
+        background-color: transparent;
+        color: black;
+    }
+
+}
+
+.lostPassword-p {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.667;
+    margin-bottom: 5px;
+    padding-left: 30px;
+}
+
+.coupon-header {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+    background: #f1f6f7;
+}
+
+.select-coupon {
+    display: flex;
+    flex-direction: column;
+    & input {
+        margin-left: 30px;
+        width: 65%;
+        display: block;
+        height: 40px;
+        border-radius: 3px;
+        padding: 0px 15px;
+        border: 1px solid #eeeeee;
+        outline: none;
+        box-shadow: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    & a {
+        font-size: 15px;
+        padding: 12px 25px;
+        border: 1px solid #384aeb;
+        border-radius: 30px;
+        color: #222;
+        max-width: 180px;
+        background: #384aeb;
+        color: #fff;
+        transition: all .4s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    & a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    & a:hover {
+        color: black;
+
+        background-color: transparent;
+    }
+
+}
+
+.bilingDetails-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.bilingDetails-left {
+    display: flex;
+    flex-direction: column;
+    padding-block: 15px;
+    width: 60%;
+}
+
+.bilingDetails-h3 {
+    font-size: 18px;
+    color: #222;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.1;
+    border-bottom: 1px solid #eee;
+}
+
+.biling-inputs-container {
+    gap: 18px;
+    display: flex;
+    margin-bottom: 20px;//input mesafe
+
+    & input {
+        display: flex;
+        border: 1px solid #eee;
+        font-size: 14px;
+        color: #777777;
+        border-radius: 3px;
+        padding-block: 8px;
+        width: 50%;
+
+    }
+}
+
+.long-input {
+    border: 1px solid #eee;
+    font-size: 14px;
+    color: #777777;
+    border-radius: 3px;
+    padding-block: 8px;
+    margin-bottom: 20px; //input mesafe
+}
+
+.postCode-input {
+    padding-left: 10px;
+}
+
+.company-input {
+    padding-left: 10px;
+}
+
+.biling-select {
+    border: 1px solid #eee;
+    font-size: 14px;
+    color: #777777;
+    border-radius: 3px;
+    padding-block: 8px;
+    padding-left: 10px;
+    margin-bottom: 20px; //input mesafe
+}
+
+.createCheckBox-div {
+    display: flex;
+
+    & input {
+        margin-right: 5px;
+    }
+}
+
+.shippingDetails-div {
+    margin-top: 20px;
+}
+
+.shippingDetails-h3 {
+    font-size: 18px;
+    color: #222;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 30px
+}
+
+.createCheckBox-div {
+    display: flex;
+    padding-bottom: 30px;
+
+    & input {
+        margin-right: 5px;
+    }
+}
+
+.shippingDetails-textArea {
+    width: 100%;
+    height: 100px;
+}
+
+.bilingDetails-rigth {
+    display: flex;
+    flex-direction: column;
+    background: #e8f0f2;
+    padding: 30px;
+    gap: 25px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.bilingDetails-rigth-h2 {
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+    padding-bottom: 15px;
+    font-family: "Oswald", sans-serif;
+    line-height: 1.1;
+}
+
+.total-product,
+.vegetableName-container,
+.subTotal-div,
+.total-price-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+}
+.subTotal-div{
+    justify-content: space-between !important;
+}
+.total-product-a {
+    color: #222;
+}
+
+.total-product-h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.vegetableName-a {
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+    border-bottom: 1px solid #eeeeee;
+    display: block;
+}
+
+.vegetable-count {
+    color: #222;
+}
+
+.vegetable-price {
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+}
+
+.subTotal-a,
+.total-price-a {
+
+    color: #222;
+    font-weight: bolder;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 18px !important;
+}
+.subTotal-price {
+    color: #777;
+    text-transform: capitalize;
+    font-weight: 500;
+    
+}
+.total-price-second-a{
+    color: #222;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 18px !important;
+}
+.checkPayments{
+    display: flex;
+    align-items: center;
+    & input{
+        margin-right: 7px;
+    }
+}
+.payPal-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check-payPal{
+    display: flex;
+    & input{
+        margin-right: 7px;
+    }
+}
+.about-payPal{
+    background: #fff;
+    padding: 15px 20px;
+    font-size: 12px;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.667;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.terms-conditions{
+    display: flex;
+    align-items: center;
+    & input{
+        margin-right: 7px;
+    }
+    & a{
+        margin-left: 3px;
+        color: #384aeb;
+    }
+}
+.proceed-button{
+    width: 100%;
+    padding: 14px 30px;
+    display: inline-block;
+    border: 1px solid #384aeb;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 500;
+    background: #384aeb;
+    color: #fff;
+    transition: all .4s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 1.667;
+}
+.proceed-button:hover{
+    color: black;
+    background-color: transparent;
+}
+@media(max-width:1200px){
+    .productCheckOut-container {
+
+        padding: 25px 110px;
+    }
+}
+@media(max-width:981px){
+    .productCheckOut-container {
+        padding: 25px 80px;
+    }
+    .bilingDetails-left{
+        width: 100%;
+    }
+   
+    .bilingDetails-container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .bilingDetails-rigth{
+        margin-left: 0px;
+    }
+}
+@media(max-width:575px){
+    .productCheckOut-container {
+        padding: 25px 15px 25px 0px;
+    }
+    .select-coupon{
+        & a{
+            width: 150px;
+            padding: 8px 20px;
+            margin-left: 10px;
+        }
+    }
+    .inputs-container{
+        flex-direction: column;
+        & input{
+            width: 100%;
+        }
+        & input:nth-child(2){
+            margin-left: 0px;   margin-top: 10px;
+        }
+    }
+    .login-div{
+        & button{
+            padding: 7px 25px;
+        }
+    }
+   .bilingDetails-left{
+    padding-inline: 20px;
+   }
+   .biling-inputs-container{
+    display: flex;
+    flex-direction: column;
+     & input{
+        width: 100%;
+     }
+   
+   }
+    
+    
+}
+

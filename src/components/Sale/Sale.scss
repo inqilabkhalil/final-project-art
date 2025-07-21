@@ -1,0 +1,81 @@
+$mainColor: #384aeb;
+
+.sale-container {
+    background: url(https://preview.colorlib.com/theme/aroma/img/home/parallax-bg.png) right center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    background-position: 17.575px 28.7875px;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 60px;
+
+}
+
+.sale-texts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.sale-h3 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    ;
+}
+
+.sale-h4 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    margin-left: 55px;
+    margin-bottom: 10px;
+
+}
+
+.shop-p {
+    color: #555555;
+    margin-bottom: 40px;
+    margin-top: 3px;
+    margin-left: 33px;
+
+}
+
+.shop-sale {
+    display: inline-block;
+    border: 1px solid #384aeb;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 500;
+    padding: 15px 45px;
+    background: #384aeb;
+    color: #fff;
+    transition: all;
+    width: 180px;
+    text-align: center;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.shop-sale:hover{
+    color: black;
+    background-color: lightblue;
+    transition: all 0.4s ease; 
+
+}
+@media(max-width:650px){
+    .sale-h3 {
+        font-size: 30px;
+        margin-left: 40px;
+       
+    }
+  
+}
+@media(max-width:568px){
+    .sale-container {
+      
+        padding-left: 80px;
+    
+    }
+}

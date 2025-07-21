@@ -1,0 +1,40 @@
+$mainColor: #384aeb;
+.normal-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+  
+  .normal-link:hover {
+    color: $mainColor;
+  }
+  
+  .linkComps-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .linkComps-container.colfoot {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .linkComps-container.colheader{
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+@media(max-width:981px){
+.linkComps-container.colheader{
+  margin-left: 40px;
+}
+}
+@media(max-width:768px){
+  .linkComps-container.colheader{
+    margin-left: 0px;
+  }
+
+}
+  
+  

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.browse-div {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+
+
+}
+
+.first-browse-section {
+    background-color: #384aeb;
+    width: 35%;
+    position: relative;
+}
+
+.first-browse-section img {
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    width: 420px;
+    height: 645px;
+}
+
+.second-browse-section {
+    width: 70%;
+    padding: 180px;
+    background-color: #f5f5f5da;
+    ;
+}
+
+.second-browse-h4 {
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.second-browse-h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.second-browse-p {
+    margin-bottom: 40px;
+    color: #555555;
+}
+
+.second-browse-button {
+    padding: 17px 38px;
+    border: 1px solid #384aeb;
+    border-radius: 30px;
+    color: #222;
+    font-weight: 500;
+    background-color: #384aeb;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease; 
+}
+.second-browse-button:hover{
+    background-color: #f5f5f5da;
+    color: black;
+
+}
+
+.browseCard-page {
+    display: flex;
+    margin-top: 10px;
+}
+@media(max-width:1307px){
+   
+    .first-browse-section{
+        width: 20%;
+    }
+    .second-browse-section{
+        width: 80%;
+    }
+    .first-browse-section img {
+        left: 50px; 
+        top: 40px;
+        height: 550px;
+    }
+    .second-browse-section {
+       padding-block: 140px;
+       padding-left: 300px;
+       padding-right: 100px;
+    }
+    
+}
+@media(max-width:981px){
+    .first-browse-section{
+        width: 15%;
+    }
+    .second-browse-section{
+        width: 85%;
+    }
+    .first-browse-section img {
+        left: 20px; 
+        top: 60px;
+        width: 320px;
+        height: 350px;
+    }
+    .second-browse-section {
+        padding-top: 50px;
+        padding-bottom: 0px;
+       padding-left: 250px;
+       padding-right: 50px;
+    }
+    .second-browse-button {
+        padding: 17px 25px;
+        margin-bottom: 40px;
+   
+    }
+
+
+
+}
+@media(max-width:664px){
+    .first-browse-section img {
+   
+        display: none;
+    }
+    .second-browse-section{
+        padding-inline: 10px;
+        padding-block: 50px;
+    }
+   
+    
+}

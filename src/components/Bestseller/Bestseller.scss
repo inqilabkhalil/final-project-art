@@ -1,0 +1,46 @@
+.bestSeller-container{
+    padding: 23px 180px;
+}
+.bestSeller-cards{
+    display: flex;
+}
+.bestSeller-p{
+    margin-bottom: 3px;
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bestSeller-h2{
+    font-family: "Oswald", sans-serif;
+    color: #222;
+    font-size: 36px;
+    font-weight: 600;
+}
+.bestSeller-span{
+    border-bottom: 2px solid #384aeb;
+
+}
+.bestSeller-texts{
+    margin-bottom: 20px;
+}
+@media(max-width:1200px){
+    .bestSeller-container{
+        padding: 23px 110px;
+    }
+}
+@media(max-width:981px){
+    .bestSeller-container{
+        padding: 23px 80px;
+    }
+}
+@media(max-width:767px){
+    .bestSeller-container{
+        padding: 23px 70px;
+    }
+}
+@media(max-width:568px){
+    .bestSeller-container{
+        padding: 23px 35px;
+    }
+}

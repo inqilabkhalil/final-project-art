@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Parisienne&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first-footer-section {
+    display: flex;
+    flex-direction: row;
+    padding: 195px 180px 0px;
+    background-color: #002347;
+}
+
+.main-footer-div {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.large-footer-div {
+    width: 350px;
+
+}
+
+.large-h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.normal-h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    margin-bottom: 35px;
+
+}
+.contact-normal-h4{
+    margin-bottom: 0px;
+}
+
+.footer-p {
+    color: #7b838a;
+
+}
+
+.main-footer-div a {
+    margin-bottom: 15px;
+    color: #7b838a;
+
+}
+
+.contact-section {
+    display: flex;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.aboutCompany-div {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.footer-whiteP {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.contact-p {
+    color: #7b838a;
+}
+
+.second-section {
+    background-color: rgba(0, 35, 71, 0.980392);
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-footerP {
+    color: white;
+}
+.footer-link a{
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+@media(max-width:981px) {
+    .first-footer-section {
+        flex-wrap: wrap;
+        padding: 195px 90px 0px;
+
+    }
+
+    .main-footer-div {
+        width: 30%;
+    }
+    .footer-img img{
+        width: 50px;
+    }
+}
+@media(max-width:767px){
+    .first-footer-section {
+        flex-wrap: wrap;
+        padding: 40px 15px 0px;
+        
+
+    }
+    .main-footer-div {
+        width: 100%;
+    }
+    .normal-h4{
+        margin-bottom: 10px;
+        margin-top: 20px;
+        
+    }
+    
+
+} 

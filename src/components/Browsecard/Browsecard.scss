@@ -1,0 +1,70 @@
+.browseCard-container {
+    position: relative;
+    width: 33%;
+
+}
+
+.browseCard-container:nth-child(1),
+.browseCard-container:nth-child(2) {
+    margin-right: 20px;
+}
+
+.browseCard-img-div img {
+    width: 100%;
+    height: 400px;
+}
+
+.headPhone-a {
+    text-decoration: none;
+}
+
+.aboutBrowe-card {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    background: #384aeb;
+    padding: 23px 90px 23px 25px;
+    transform: translateY(50px);
+    z-index: -1;
+    transition: all .2s ease-in-out;
+
+}
+
+.headPhone-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.item-p {
+    color: #fff;
+
+}
+
+.browseCard-container:hover .aboutBrowe-card {
+    z-index: 2;
+}
+
+.browseCard-container:hover .browseCard-img-div img {
+    filter: brightness(1) contrast(0.8) saturate(0.8);
+}
+
+@media(max-width:796px) {
+    .browseCard-container {
+        position: relative;
+        width: 50%;
+    }
+
+}
+
+@media(max-width:568px) {
+    .browseCard-container {
+        position: relative;
+        width: 100%;
+    }
+    .browseCard-container:nth-child(1), .browseCard-container:nth-child(2){
+        margin-right: 0px;
+    }
+}
