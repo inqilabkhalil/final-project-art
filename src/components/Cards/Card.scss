@@ -91,3 +91,13 @@
         width: 150px;
      }
 }
+@media(max-width:981px){
+    .card-search-bar{
+        top: 240px;
+     }
+}
+@media(max-width:568px){
+    .card-search-bar{
+        top: 5000px;
+     }
+}
